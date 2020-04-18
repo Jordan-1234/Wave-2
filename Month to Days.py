@@ -9,4 +9,4 @@ elif month_name in ("January" , "March" , "May" , "July", "August" , "October", 
     print("Number of days: 31 days")
 # Else statement if month is spelt incorrect or not possible
 else: 
-    print("Incorrect Month Name ") 
+    print("An Incorrect Month Name ") 
