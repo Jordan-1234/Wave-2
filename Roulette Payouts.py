@@ -5,6 +5,7 @@ num = int(input())
 print("The spin results in", num)
 print("Pay",num)
 
+#If statements for the programs 
 if num != 0 and num != 00:
     if num in red:
         print("Pay Red")
@@ -17,6 +18,6 @@ if num != 0 and num != 00:
         print("Pay Odd")
 
     if num in range(1, 19):
-        print("1 to 18")
+        print("Pay 1 to 18")
     else: 
         print("Pay 19 to 36")
