@@ -13,7 +13,7 @@ if b**2 - 4*a*c < 0:
 #Use the whole quadratics equation to check for the amount roots
 else: 
     root1 = int((b*-1 + math.sqrt(b**2 - 4*a*c)) / (2*a))
-    root2 = int((b*-1 + math.sqrt(b**2 - 4*a*c)) / (2*a))
+    root2 = int((b*-1 - math.sqrt(b**2 - 4*a*c)) / (2*a))
     if root1 != root2:
         print("There are 2 real roots")
         print("Root 1 =", root1)
